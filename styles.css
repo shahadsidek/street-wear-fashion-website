@@ -24,6 +24,10 @@ ul li{
     display: inline;
     padding: 10px;
 }
+ul li:hover{
+    color: yellow;
+    font-weight: 600;
+}
 div h4{
     display: inline;
     padding: 10px;
@@ -36,7 +40,7 @@ div h4{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #2f3e53;
+    background-color: #1f2937;
     color: #f9faf8;
 }
 .first-section-image{
@@ -51,22 +55,97 @@ div h4{
     width: 70%;
     padding:50px;
 }
-.second-section main{
-    display:inline-block;
-    position: relative;
+/*.second-section main{
+    margin: auto;
+    display:block;
     border-radius: 10%;
     justify-content: center;
     align-content: center;
+}*/
+.second-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
 }
-.second-section img{
-    border-radius: 10%;
-    margin: 10px;
-    padding: 10px;
+.second-section img {
+    /*margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;*/
+    border-radius: 7px;
+   /*padding: 10px;*/
 }
-.second-section main p{
-    display: inline-flex;
-    margin-left: 13px;
-    margin-right: 13px;
+.second-section-text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.second-section-text p{
+    position: relative;
+    max-width: 120px;
+    text-align: left;
+}
+.third-section{
+    background-color: #E5E7EB;
+    margin: 50px;
+    padding: 120px;
+    /*height: 13rem; */
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937
+}
+.fourth-section{
+    background-color: #3882f6;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 40px; 
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+}
+.fourth-section-data{
+    width:60%;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    width: 110px;
+    border-radius: 4px;
+    padding: 4px;
+}
+#newsletter-button{
+    border: 1px solid white;
+}
+footer{
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    font: 18px;
     padding: 10px;
-    margin-top:0px;
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+.first-section p{
+    font-size: 18px;
+}
+button:hover{
+    background-color: #4a638b;
 }
