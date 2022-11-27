@@ -17,16 +17,29 @@ header{
     align-items: center;
     
 }
-ul{
+.navbar-head{
     list-style-type: none;
 }
-ul li{
+.navbar-item{
     display: inline;
     padding: 10px;
 }
-ul li:hover{
+.navbar-item:hover{
     color: yellow;
     font-weight: 600;
+    transform: scale(5);
+}
+.navbar-item:visited{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.navbar-item{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo-div{
+    width: 150px;
+    height: auto;
 }
 div h4{
     display: inline;
@@ -48,20 +61,14 @@ div h4{
     padding: 30px;
 }
 .main-image{
-    border-radius: 10%;
+    border-radius:5px;
     
 }
 .first-section-data{
     width: 70%;
     padding:50px;
 }
-/*.second-section main{
-    margin: auto;
-    display:block;
-    border-radius: 10%;
-    justify-content: center;
-    align-content: center;
-}*/
+
 .second-section {
     width: 100%;
     display: flex;
@@ -71,12 +78,7 @@ div h4{
     margin-top: 40px;
 }
 .second-section img {
-    /*margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;*/
-    border-radius: 7px;
-   /*padding: 10px;*/
+    box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
 }
 .second-section-text{
     width: 100%;
@@ -152,6 +154,6 @@ button:hover{
 img {
     width:300px;
     height:400px;
-    border-radius: 12px;
+    border-radius: 5px;
     margin: 10px;
-  }
+}
