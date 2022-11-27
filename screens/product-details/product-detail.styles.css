@@ -3,45 +3,6 @@
   padding: 0px;
   box-sizing: border-box
 }
-
-/*THE HEADER PART*/
-header{
-  display: flex;
-  flex-direction: row;
-  height: 150px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1f2937;
-  color: #f9faf8;
-  font-size: 18px;
-}
-.nav-div{
-  align-items: center;
-}
-.navbar-head{
-  list-style-type: none;
-}
-.navbar-item{
-  display: inline;
-  padding: 10px;
-}
-.navbar-item:hover{
-  color: yellow;
-  font-weight: 600;
-}
-.navbar-item:visited{
-  font-size: 18px;
-  color: #E5E7EB;
-}
-.navbar-item{
-  font-size: 18px;
-  color: #E5E7EB;
-}
-.logo-div{
-  width: 150px;
-  height: auto;
-}
-
 /* SECTION ONE OF THE PAGE */
 .grid-container{
   width:100%;
@@ -166,13 +127,11 @@ ul li{
 /* SECTION TWO  OF THE PAGE*/
 .container-2{
   display:flex;
-  margin-top: 30px;
   align-items: center; /* centered Vertically*/
   justify-content: center; /*centered Horizontally*/
   background-color: #E5E7EB;
   padding: 40px;
 }
-
 .product-line{
   width: 90%;
   height: 90%;
@@ -183,7 +142,6 @@ ul li{
   justify-content: center; /*centered Horizontally*/
   margin-top: 7px;
 }
-
 .product-line img{
   width: 90%;
   height: 90%;
@@ -196,7 +154,6 @@ ul li{
   margin-top: 7px;
   padding: 3px;
 }
-
 .aButton {
   display: block;
   text-decoration: none;
@@ -209,4 +166,10 @@ ul li{
 }
 .aButton:hover{
   background-color: #4a638b;
+}
+.new-section{
+  background-color: #E5E7EB;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  padding-top: 20px;
 }
