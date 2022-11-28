@@ -43,7 +43,6 @@ header{
     width: 150px;
     height: auto;
 }
-
 .first-section{
     width: 100%;
     display: flex;
@@ -133,6 +132,7 @@ header{
     height: 50px;
     border: 1px solid white ;
     font-size: 20px;
+    color: white;
 }
 footer{
     align-items: center;
@@ -143,11 +143,6 @@ footer{
     padding: 10px;
     text-align: center;
     margin-top: 20px;
-}
-h1{
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #f9faf8;
 }
 .first-section p{
     font-size: 18px;
@@ -161,7 +156,6 @@ button:hover{
     border-radius: 5px;
     margin: 10px;
 }
-
 .jumbotron-button{
     background: #1f2937;
     width: 200px;
@@ -174,7 +168,6 @@ button:hover{
     display: flex;
     flex-direction: row;
 }
-
 .sale-items img{
     border-radius:5px;
     box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
@@ -184,9 +177,7 @@ button:hover{
     float: right;
     font-size: 20px;
 }
-
 .testimonial-date{
-   
     float: right;
     font-size: 15px;
 }
@@ -195,11 +186,9 @@ button:hover{
     height: 80px;
     float: left;
 }
-
 .testimonial-user1{
     clear: left;
 }
-
 .third-section h5{
     clear: left;
     float:left;
@@ -213,8 +202,13 @@ h2{
     text-align: center;
 }
 h1{
-    font-size: 60px;
     font-family: 'Staatliches', cursive;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+h3{
+    font-size: 30px;
 }
 .on-sale{
     width: 90%;
